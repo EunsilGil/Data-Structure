@@ -94,13 +94,14 @@
 
 ###### complete binary tree와 full binar tree는 동일 level에서는 유일한 형태로 나타난다.
 
-​										**Complete** Binary Tree
+밑의 그림은 **Complete** Binary Tree이다.
 
 ![?](http://web.cecs.pdx.edu/~sheard/course/Cs163/Graphics/CompleteBinary.jpg)
 
+
 ![?](http://web.cecs.pdx.edu/~sheard/course/Cs163/Graphics/FullBinary.jpg)
 
-​									(그림 출처는 [wikipedia](http://web.cecs.pdx.edu/~sheard/course/Cs163/Doc/FullvsComplete.html))
+(그림 출처는 [wikipedia](http://web.cecs.pdx.edu/~sheard/course/Cs163/Doc/FullvsComplete.html))
 
 
 
@@ -375,7 +376,7 @@ void postorder_traverse(BstNode *p);
 
   ![img](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Exp-tree-ex-11.svg/250px-Exp-tree-ex-11.svg.png)
 
-  [Expression tree]![img](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Exp-tree-ex-11.svg/250px-Exp-tree-ex-11.svg.png)
+  [Expression tree](https://en.wikipedia.org/wiki/Binary_expression_tree)
 
   - inorder : (((a + b) * c) + 7)
 
