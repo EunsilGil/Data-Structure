@@ -15,17 +15,17 @@
 
   * topological order : AOV network에서 predecessor와 successor의 관계를 유지하는 a linear order
 
-    ​		**A ---> B **에서    A 는 B의 predecessor,   B 는 A의 successor 이다. 
+   * **A ---> B**에서    A 는 B의 predecessor,   B 는 A의 successor 이다. 
 
   * 방법
 
-    1. predecessor를 갖지 않는 vertex를 한 개 선택하고, 그 vertex와 그의 모든 outgoing edge를 제거한다.
+   1. predecessor를 갖지 않는 vertex를 한 개 선택하고, 그 vertex와 그의 모든 outgoing edge를 제거한다.
 
-    2. 1번을 n번 반복한다.
+   2. 1번을 n번 반복한다.
 
 
 
-       * topological sort의 방법은 모두 몇가지인지 알기 위해서 수형도를 그려볼 수 있다.
+     * topological sort의 방법은 모두 몇가지인지 알기 위해서 수형도를 그려볼 수 있다.
 
     ![Directed acyclic graph 2.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Directed_acyclic_graph_2.svg/180px-Directed_acyclic_graph_2.svg.png)이 [graph](https://en.wikipedia.org/wiki/Topological_sorting)의 topological sort는 총 **6가지**이다.
 
